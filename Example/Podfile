@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYPiOSTools_Example' do
+  pod 'WYPiOSTools', :path => '../'
+
+  target 'WYPiOSTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
