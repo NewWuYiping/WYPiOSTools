@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define Date1970(VALUE) ([NSDate dateWithTimeIntervalSince1970:VALUE/1000])
+
 void *NewBase64Decode(
                       const char *inputBuffer,
                       size_t length,
@@ -28,4 +30,14 @@ char *NewBase64Encode(
 
 //把字符串加密成32位大写md5字符串
 + (NSString*)md532BitUpper:(NSString*)inPutText;
+
+
+- (void)wyp_logDate;
+
+- (NSString *)wyp_stringFromDate:(NSString *)__dateFormat;
+//时间戳转换为时间
++ (NSString *)wyp_stringFromDateStr:(NSString *)dateStr dateFormat:(NSString *)__dateFormatter;
+
+//NSString转化为NSDate
++ (NSDate *)wyp_convertDateFromString:(NSString*)dateStr;
 @end
