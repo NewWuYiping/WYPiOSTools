@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WYPiOSTools'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A short description of WYPiOSTools.'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'SSKeychain', '~> 1.4.1'
+  s.dependency 'WYPiOSTools', '~> 1.4.1'
 end

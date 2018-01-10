@@ -37,7 +37,6 @@
 #import "WypDeviceTools+Identification.h"
 #import "WypDeviceTools.h"
 #import "WypFileTools.h"
-#import "WYPiOSTools.h"
 #import "WypKeychainTools.h"
 #import "WypLabel.h"
 #import "WypMacro.h"
