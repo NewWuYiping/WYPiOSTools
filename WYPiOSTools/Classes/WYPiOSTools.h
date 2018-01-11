@@ -9,6 +9,7 @@
 #ifndef WYPiOSTools_h
 #define WYPiOSTools_h
 
+#import "NSDate+WYP.h"
 #import "NSData+Wyp.h"
 #import "NSDictionary+Wyp.h"
 #import "NSHTTPURLResponse+Wyp.h"
