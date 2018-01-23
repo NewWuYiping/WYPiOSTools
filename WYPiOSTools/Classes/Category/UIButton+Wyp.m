@@ -60,10 +60,10 @@
 }
 
 - (void)wyp_setTitleColor:(UIColor *)__titleColor
-          backgroundImgae:(NSString *)__bgImage
+          backgroundImgae:(UIImage *)__bgImage
                     state:(UIControlState)__state {
     [self setTitleColor:__titleColor forState:__state];
-    [self setBackgroundImage:[UIImage imageNamed:__bgImage] forState:__state];
+    [self setBackgroundImage:__bgImage forState:__state];
     
 }
 

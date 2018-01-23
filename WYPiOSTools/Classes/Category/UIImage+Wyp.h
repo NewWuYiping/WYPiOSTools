@@ -24,7 +24,7 @@
 /**
  * 根据原图片生成一张拉伸中点的新图片
  */
-+ (UIImage *)wyp_resizableImage4Center:(NSString *)__imageName;
++ (UIImage *)wyp_resizableImage4Center:(UIImage *)rawImage;
 
 + (UIImage*)wyp_imageFromView:(UIView*)view;
 

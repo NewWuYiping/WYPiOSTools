@@ -15,5 +15,5 @@
               style:(UIBarButtonItemStyle)__style
           withBlock:(WypActionBlock)__actionBlock;
 
-+ (instancetype)itemWithImage:(NSString *)__image highImage:(NSString *)__highImage block:(WypActionBlock)__action;
++ (instancetype)itemWithImage:(UIImage *)__image highImage:(UIImage *)__highImage block:(WypActionBlock)__action;
 @end

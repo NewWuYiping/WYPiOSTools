@@ -41,8 +41,8 @@
     return[self resizableImageWithCapInsets:__insets];
 }
 
-+ (UIImage *)wyp_resizableImage4Center:(NSString *)__imageName {
-    return [[UIImage imageNamed:__imageName] wyp_resizableImage4Center];
++ (UIImage *)wyp_resizableImage4Center:(UIImage *)rawImage {
+    return [rawImage wyp_resizableImage4Center];
 }
 
 + (UIImage*)wyp_imageFromView:(UIView*)view{

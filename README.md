@@ -18,6 +18,8 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'WYPiOSTools'
+
+fastlane project:'WYPiOSTools' version:'0.2.4'
 ```
 
 ## Author

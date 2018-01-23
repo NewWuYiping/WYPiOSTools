@@ -40,10 +40,10 @@ static char overviewKey;
 }
 #pragma clang diagnostic pop
 
-+ (instancetype)itemWithImage:(NSString *)__image highImage:(NSString *)__highImage block:(WypActionBlock)__action {
++ (instancetype)itemWithImage:(UIImage *)__image highImage:(UIImage *)__highImage block:(WypActionBlock)__action {
     UIButton *__button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [__button setBackgroundImage:[UIImage imageNamed:__image] forState:UIControlStateNormal];
-    [__button setBackgroundImage:[UIImage imageNamed:__highImage] forState:UIControlStateHighlighted];
+    [__button setBackgroundImage:__image forState:UIControlStateNormal];
+    [__button setBackgroundImage:__highImage forState:UIControlStateHighlighted];
 
     CGRect __frame = __button.frame;
     __frame.size = __button.currentBackgroundImage.size;

@@ -21,7 +21,7 @@
                state:(UIControlState)__state;
 
 - (void)wyp_setTitleColor:(UIColor *)__titleColor
-          backgroundImgae:(NSString *)__bgImage
+          backgroundImgae:(UIImage *)__bgImage
                     state:(UIControlState)__state;
 
 - (void)wyp_setButtonRadius:(CGFloat)radius
