@@ -9,8 +9,8 @@
 #ifndef WYPiOSTools_h
 #define WYPiOSTools_h
 
-#import "NSDate+WYP.h"
 #import "NSData+Wyp.h"
+#import "NSDate+WYP.h"
 #import "NSDictionary+Wyp.h"
 #import "NSHTTPURLResponse+Wyp.h"
 #import "NSNull+Wyp.h"
@@ -38,6 +38,7 @@
 #import "WypDeviceTools+Identification.h"
 #import "WypDeviceTools.h"
 #import "WypFileTools.h"
+#import "WYPiOSTools.h"
 #import "WypKeychainTools.h"
 #import "WypLabel.h"
 #import "WypMacro.h"
@@ -46,5 +47,6 @@
 #import "WypScreenShotTools.h"
 #import "WypSingletonTemp.h"
 #import "WypTableViewCell.h"
+#import "WYPViewOwner.h"
 
 #endif /* WYPiOSTools_h */
